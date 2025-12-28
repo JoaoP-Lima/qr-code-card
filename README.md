@@ -13,3 +13,13 @@
 ### ▫️ Flexbox
 
 ### ▫️ Responsive design for desktop e mobile
+
+=======
+
+## 🛠️ Tools and knowledge used
+
+### ▫️ GRID (ferramenta principal)
+
+### ▫️ Flexbox
+
+### ▫️ Responsive design for desktop e mobile
