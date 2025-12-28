@@ -15,11 +15,12 @@ p {
 }
 
 .page {
-  max-width: 1440px;
+  max-width: 90rem;
 }
 .content__card {
   align-content: center;
   height: 100vh;
+  padding: 0 1.688rem;
 }
 
 .card {
@@ -31,7 +32,7 @@ p {
     "texts";
   row-gap: 24px;
   background-color: white;
-  padding: 16px 16px 40px 16px;
+  padding: 16px 16px clamp(24px, 5vw, 40px) 16px;
   border-radius: 20px;
   justify-self: center;
 }
@@ -42,25 +43,26 @@ p {
 }
 
 .card__texts {
-  padding: 0 16px;
+  padding: 0 clamp(10px, 3vw, 16px);
   grid-area: texts;
+  text-align: center;
 }
 
 .card__title {
-  font-size: 20px;
-  margin-bottom: 16px;
+  font-size: clamp(16px, 5vw, 22px);
+  margin-block-end: 16px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 
 .card__subtitle {
-  font-size: 15px;
+  font-size: clamp(12px, 2vw, 15px);
   font-weight: 400;
   color: hsl(216, 15%, 48%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   .content__card {
-    padding: 0 27px;
+    padding: 0;
   }
 }

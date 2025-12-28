@@ -14,11 +14,9 @@
 
 ### ▫️ Responsive design for desktop e mobile
 
-=======
-
 ## 🛠️ Tools and knowledge used
 
-### ▫️ GRID (ferramenta principal)
+### ▫️ GRID (main tool)
 
 ### ▫️ Flexbox
 
