@@ -1,4 +1,4 @@
-# QR code component
+# QR code component (https://joaop-lima.github.io/qr-code-card/)
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
